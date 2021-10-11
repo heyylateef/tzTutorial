@@ -1,0 +1,42 @@
+{# HTML5 declaration #}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    {% load static %}
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- Font Awesome (free icons) -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+        <title>{% block title %}LateefLab TzTutorial{% endblock title %}</title>
+    </head>
+    <body>
+
+        </style>
+    <header>
+        {# Navigation Menu #}
+    </header>
+     {# The Document Body #}
+    <div class="container">
+        {% block content %}
+            if you see this, something is wrong!
+        {% endblock content %}
+    </div>
+     {# The Footer #}
+    <div class="footer">
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </div>  
+    </body>
+</html>
